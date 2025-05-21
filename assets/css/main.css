@@ -2416,8 +2416,6 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-	        max-width: fit-content; /* Add this line */
-	    	margin: 0 auto;       /* Add this line */
 	}
 
 		.image img {
@@ -2458,7 +2456,6 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			width: 100%;
-			margin-left: 0
 		}
 
 			.image.main img {
@@ -3021,7 +3018,6 @@ input, select, textarea {
 				border-radius: 5px 5px 0 0;
 				display: block;
 				margin-bottom: 1.75em;
-				margin-left: -1.75em;
 				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
