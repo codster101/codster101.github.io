@@ -2417,6 +2417,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	        max-width: fit-content; /* Add this line */
+	    	margin: 0 auto;       /* Add this line */
 	}
 
 		.image img {
